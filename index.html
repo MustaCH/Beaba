@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>Beaba</title>
+  </head>
+  <body>
+    <header class="relative">
+      <nav
+        class="absolute flex justify-between w-screen h-56 p-6 lg:px-72 z-50 bg-gradient-to-b from-black"
+      >
+        <h1 class="lg:p-12 text-5xl font-bold text-white">Beaba</h1>
+        <ul
+          class="hidden lg:flex gap-8 font-regular text-lg uppercase lg:p-12 text-white"
+        >
+          <a
+            href=""
+            class="underline decoration-transparent hover:decoration-amber-900 underline-offset-4 decoration-2 duration-200"
+          >
+            Home
+          </a>
+          <a
+            href="./pages/projects.html"
+            class="underline decoration-transparent hover:decoration-amber-900 underline-offset-4 decoration-2 duration-200"
+            >Proyectos</a
+          >
+          <a
+            class="underline decoration-transparent hover:decoration-amber-900 underline-offset-4 decoration-2 duration-200"
+            >Sobre mí</a
+          >
+          <a
+            class="underline decoration-transparent hover:decoration-amber-900 underline-offset-4 decoration-2 duration-200"
+            >Contacto</a
+          >
+        </ul>
+      </nav>
+    </header>
+    <!--Background carousel-->
+    <div class="relative">
+      <div
+        id="slider"
+        class="absolute z-40 bg-[url('/img/slides-home/s1.jpg')] grayscale duration-1000 w-screen h-screen bg-cover bg-center"
+      ></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
