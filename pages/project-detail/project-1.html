@@ -11,12 +11,14 @@
   <body class="bg-zinc-200">
     <header class="relative">
       <nav class="flex justify-between w-screen h-44 p-6 lg:px-72 z-50">
-        <h1 class="lg:p-12 text-5xl font-bold text-zinc-900">LOGO</h1>
+        <a href="../../index.html"
+          ><h1 class="lg:p-12 text-5xl font-bold text-zinc-900">LOGO</h1></a
+        >
         <ul
           class="hidden lg:flex gap-8 font-regular text-lg uppercase lg:p-12 text-zinc-900"
         >
           <a
-            href="../../../index.html"
+            href="../../index.html"
             class="underline decoration-transparent hover:decoration-amber-900 underline-offset-4 decoration-2 duration-200"
           >
             Home
@@ -39,21 +41,45 @@
         </ul>
       </nav>
     </header>
-    <main class="">
+    <main>
       <div
-        class="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-4 h-fit mx-6 lg:mx-80"
+        class="relative lg:grid grid-cols-1 grid-rows-3 lg:grid-cols-2 lg:auto-rows-min place-items-center gap-4 h-fit mx-6 lg:mx-80"
       >
         <div
-          class="lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic1.jpg')] bg-cover bg-center"
+          class="hidden lg:inline lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic1.jpg')] bg-cover bg-center"
         ></div>
-        <div class="lg:col-span-1 flex flex-col gap-8 lg:gap-12 lg:m-12">
+        <!--CARROUSEL MOBILE-->
+        <div class="relative h-[650px] lg:hidden">
+          <div id="carousel" class="relative">
+            <div
+              class="slide absolute z-50 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic1.jpg')] bg-cover bg-center"
+            ></div>
+            <div
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic2.jpg')] bg-cover bg-top"
+            ></div>
+            <div
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic3.jpg')] bg-cover bg-center"
+            ></div>
+            <div
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic4.jpeg')] bg-cover bg-center"
+            ></div>
+            <div
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic5.jpeg')] bg-cover bg-center"
+            ></div>
+          </div>
+        </div>
+
+        <!--CARROUSEL MOBILE-->
+        <div
+          class="row-start-6 lg:row-start-1 lg:col-start-2 lg:col-span-1 flex flex-col gap-8 lg:gap-12 lg:m-12"
+        >
           <h2
             class="text-3xl uppercase underline underline-offset-4 decoration-amber-900/20"
           >
             TItulo proyecto
           </h2>
 
-          <p>
+          <p class="font-thin">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
             nisi vero ipsa eum labore harum est ipsam provident dolores soluta
             mollitia debitis, dignissimos aut qui numquam at quae asperiores
@@ -86,19 +112,20 @@
           </h3>
         </div>
         <div
-          class="lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic2.jpg')] bg-cover bg-top"
+          class="hidden lg:flex lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic2.jpg')] bg-cover bg-top"
         ></div>
         <div
-          class="lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic3.jpg')] bg-cover bg-center"
+          class="hidden lg:flex lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic3.jpg')] bg-cover bg-center"
         ></div>
         <div
-          class="lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic4.jpeg')] bg-cover bg-center"
+          class="hidden lg:flex lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic4.jpeg')] bg-cover bg-center"
         ></div>
         <div
-          class="lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic5.jpeg')] bg-cover bg-center"
+          class="hidden lg:flex lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic5.jpeg')] bg-cover bg-center"
         ></div>
       </div>
     </main>
     <footer class="bg-zinc-700 h-72 w-full mt-20"></footer>
+    <script src="../../index.js"></script>
   </body>
 </html>
