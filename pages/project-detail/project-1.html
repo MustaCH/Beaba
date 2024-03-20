@@ -48,28 +48,59 @@
         <div
           class="hidden lg:inline lg:col-span-1 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic1.jpg')] bg-cover bg-center"
         ></div>
-        <!--CARROUSEL MOBILE-->
+        <!--CARROUSEL MOBILE
         <div class="relative h-[650px] lg:hidden">
           <div id="carousel" class="relative">
             <div
-              class="slide absolute z-50 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic1.jpg')] bg-cover bg-center"
+              class="slide absolute z-50 h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic1.jpg')] bg-cover bg-center duration-1000"
             ></div>
             <div
-              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic2.jpg')] bg-cover bg-top"
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic2.jpg')] bg-cover bg-top duration-1000"
             ></div>
             <div
-              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic3.jpg')] bg-cover bg-center"
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic3.jpg')] bg-cover bg-center duration-1000"
             ></div>
             <div
-              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic4.jpeg')] bg-cover bg-center"
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic4.jpeg')] bg-cover bg-center duration-1000"
             ></div>
             <div
-              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic5.jpeg')] bg-cover bg-center"
+              class="slide absolute h-[600px] w-full bg-[url('../../img/projects/fitz-roy/pic5.jpeg')] bg-cover bg-center duration-1000"
             ></div>
           </div>
         </div>
 
-        <!--CARROUSEL MOBILE-->
+        CARROUSEL MOBILE-->
+        <div class="relative h-[650px] lg:hidden">
+          <div id="carousel" class="relative flex overflow-x-auto">
+            <img
+              class="object-cover h-[600px] w-full"
+              src="../../img/projects/fitz-roy/pic1.jpg"
+              alt=""
+            />
+            <img
+              class="object-cover h-[600px] w-full"
+              src="../../img/projects/fitz-roy/pic2.jpg"
+              alt=""
+            />
+            <img
+              class="object-cover h-[600px] w-full"
+              src="../../img/projects/fitz-roy/pic3.jpg"
+              alt=""
+            />
+            <img
+              class="object-cover h-[600px] w-full"
+              src="../../img/projects/fitz-roy/pic4.jpeg"
+              alt=""
+            />
+            <img
+              class="object-cover h-[600px] w-full"
+              src="../../img/projects/fitz-roy/pic5.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!---->
+
         <div
           class="row-start-6 lg:row-start-1 lg:col-start-2 lg:col-span-1 flex flex-col gap-8 lg:gap-12 lg:m-12"
         >
@@ -126,6 +157,6 @@
       </div>
     </main>
     <footer class="bg-zinc-700 h-72 w-full mt-20"></footer>
-    <script src="../../index.js"></script>
+    <script src="./carousel.js"></script>
   </body>
 </html>
