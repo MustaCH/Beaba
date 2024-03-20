@@ -1,14 +1,9 @@
-//Carousel
-
 let carousel = document.querySelector("#slider");
 let currentIndex = 1;
 
 const slider = () => {
-  carousel.classList.remove(
-    `bg-[url('/img/slides-home/s${currentIndex}.jpg')]`
-  );
-  currentIndex = (currentIndex % 4) + 1;
-  carousel.classList.add(`bg-[url('/img/slides-home/s${currentIndex}.jpg')]`);
+  carousel.style.backgroundImage = `url('/img/slides/s${currentIndex}.jpg')`;
+  currentIndex = (currentIndex % 3) + 1;
 };
 
-setInterval(slider, 5000);
+setInterval(slider, 4000);
