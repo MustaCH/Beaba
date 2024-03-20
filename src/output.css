@@ -1995,6 +1995,10 @@ video {
   background-position: top;
 }
 
+.bg-left {
+  background-position: left;
+}
+
 .bg-repeat {
   background-repeat: repeat;
 }
@@ -2602,6 +2606,14 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.duration-\[3000mx\] {
+  transition-duration: 3000mx;
+}
+
+.duration-\[3000ms\] {
+  transition-duration: 3000ms;
 }
 
 .ease-in {
