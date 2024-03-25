@@ -1,43 +1,13 @@
-//Carousel proyecto
+const swiper = new Swiper(".swiper", {
+  direction: "horizontal",
+  loop: true,
 
-document.addEventListener("DOMContentLoaded", function () {
-  const slides = document.querySelectorAll(".slide");
-  let currentSlideIndex = 0;
+  pagination: {
+    el: ".swiper-pagination",
+  },
 
-  function showNextSlide() {
-    slides[currentSlideIndex].classList.remove("z-50");
-    currentSlideIndex = (currentSlideIndex + 1) % slides.length;
-    slides[currentSlideIndex].classList.add("z-50");
-  }
-
-  function showPreviousSlide() {
-    slides[currentSlideIndex].classList.remove("z-50");
-    currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
-    slides[currentSlideIndex].classList.add("z-50");
-  }
-
-  function handleTouchStart(event) {
-    startX = event.touches[0].clientX;
-  }
-
-  function handleTouchMove(event) {
-    if (!startX) return;
-    const currentX = event.touches[0].clientX;
-    const diff = startX - currentX;
-    if (diff > 0) {
-      showNextSlide();
-    } else {
-      showPreviousSlide();
-    }
-    startX = null;
-  }
-
-  let startX;
-
-  document
-    .querySelector("#carousel")
-    .addEventListener("touchstart", handleTouchStart);
-  document
-    .querySelector("#carousel")
-    .addEventListener("touchmove", handleTouchMove);
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });

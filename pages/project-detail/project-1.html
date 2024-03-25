@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/yhs8omn.css" />
     <link rel="stylesheet" href="../../style.css" />
     <link href="../../src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Beaba | Proyectos</title>
   </head>
   <body class="bg-zinc-200">
@@ -69,37 +73,43 @@
           </div>
         </div>
 
-        CARROUSEL MOBILE-->
-        <div class="relative h-[650px] lg:hidden">
-          <div id="carousel" class="relative flex overflow-x-auto">
-            <img
-              class="object-cover h-[600px] w-full"
-              src="../../img/projects/fitz-roy/pic1.jpg"
-              alt=""
-            />
-            <img
-              class="object-cover h-[600px] w-full"
-              src="../../img/projects/fitz-roy/pic2.jpg"
-              alt=""
-            />
-            <img
-              class="object-cover h-[600px] w-full"
-              src="../../img/projects/fitz-roy/pic3.jpg"
-              alt=""
-            />
-            <img
-              class="object-cover h-[600px] w-full"
-              src="../../img/projects/fitz-roy/pic4.jpeg"
-              alt=""
-            />
-            <img
-              class="object-cover h-[600px] w-full"
-              src="../../img/projects/fitz-roy/pic5.jpeg"
-              alt=""
-            />
+      -->
+        <div class="lg:hidden">
+          <div class="swiper h-[600px] mb-12">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  class="h-full w-full object-cover"
+                  src="../../img/projects/fitz-roy/pic1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-full w-full object-cover"
+                  src="../../img/projects/fitz-roy/pic2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-full w-full object-cover"
+                  src="../../img/projects/fitz-roy/pic3.jpg"
+                  alt=""
+                />
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
-        <!---->
 
         <div
           class="row-start-6 lg:row-start-1 lg:col-start-2 lg:col-span-1 flex flex-col gap-8 lg:gap-12 lg:m-12"
@@ -157,6 +167,8 @@
       </div>
     </main>
     <footer class="bg-zinc-700 h-72 w-full mt-20"></footer>
-    <script src="./carousel.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="carousel.js"></script>
   </body>
 </html>
