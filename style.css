@@ -9,6 +9,19 @@ body {
   font-family: "liberation-serif", serif;
 }
 
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 1s ease forwards;
+}
+
 .swiper {
   --swiper-navigation-size: 15px;
   --swiper-navigation-color: #ffff;

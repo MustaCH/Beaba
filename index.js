@@ -1,3 +1,11 @@
+let loader = document.querySelector("#loader");
+
+const loading = () => {
+  setTimeout(() => {
+    loader.classList.add("fade-out");
+  }, 4000);
+};
+
 //Carousel automatico
 
 let carousel = document.querySelector("#slider");
@@ -9,3 +17,4 @@ const slider = () => {
 };
 
 setInterval(slider, 4000);
+loading();

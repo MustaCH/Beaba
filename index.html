@@ -10,9 +10,16 @@
     <title>Beaba</title>
   </head>
   <body>
+    <div id="loader" class="absolute z-50 bg-zinc-200 h-screen w-screen grid">
+      <h1
+        class="place-self-center text-5xl font-bold text-zinc-900 animate-fade-up animate-once animate-delay-500 animate-duration-1000"
+      >
+        LOGO
+      </h1>
+    </div>
     <header class="relative">
       <nav
-        class="absolute flex justify-between w-screen h-56 p-6 lg:px-72 z-50 bg-gradient-to-b from-black"
+        class="absolute flex justify-between w-screen h-56 p-6 lg:px-72 z-40 bg-gradient-to-b from-black"
       >
         <a href="#"
           ><h1 class="lg:p-12 text-5xl font-bold text-white">LOGO</h1></a
@@ -46,7 +53,7 @@
     <main>
       <div
         id="slider"
-        class="absolute z-40 bg-[url('/img/slides/s1.jpg')] grayscale backdrop-contrast-150 duration-1000 w-screen h-screen bg-cover bg-center"
+        class="absolute z-30 bg-[url('/img/slides/s1.jpg')] grayscale backdrop-contrast-150 duration-1000 w-screen h-screen bg-cover bg-center"
       ></div>
     </main>
     <script src="./index.js"></script>
