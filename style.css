@@ -10,7 +10,7 @@ body {
 }
 
 .swiper {
-  --swiper-navigation-size: 20px;
+  --swiper-navigation-size: 15px;
   --swiper-navigation-color: #ffff;
   --swiper-pagination-color: #ffff;
   --swiper-pagination-bullet-inactive-color: #fff;
