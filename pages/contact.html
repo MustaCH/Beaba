@@ -146,7 +146,7 @@
       <!--NAV-DESKTOP-->
     </header>
     <main class="mb-32">
-      <div class="fixed top-8 left-0 w-fit">
+      <div id="tooltip" class="hidden fixed top-8 left-0 w-fit">
         <p
           class="py-4 px-4 bg-zinc-900/80 rounded-tr-lg rounded-br-lg text-zinc-50"
         >
@@ -155,99 +155,104 @@
       </div>
       <div class="grid place-content-center gap-12">
         <div>
-          <h1 class="lg:text-5xl">Contacto</h1>
+          <h1 class="text-3xl lg:text-5xl">Contacto</h1>
         </div>
         <div>
-          <h2 class="lg:text-3xl mb-4">Información</h2>
-          <div class="flex flex-col gap-2">
-            <a
-              class="flex gap-2 opacity-75 text-xl"
-              href="mailto:benjamingabalos@gmail.com"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-at w-4"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="#2c3e50"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-                <path
-                  d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"
-                />
-              </svg>
-              benjamingabalos@gmail.com
-            </a>
-            <a id="phone" class="flex gap-2 opacity-75 text-xl" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-phone-call w-4"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="#2c3e50"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
-                />
-                <path d="M15 7a2 2 0 0 1 2 2" />
-                <path d="M15 3a6 6 0 0 1 6 6" />
-              </svg>
-              +54 341 696-1119
-            </a>
+          <div class="border-t-2 border-b-2 py-8 border-amber-900/50">
+            <h2 class="text-2xl lg:text-3xl mb-4">Información</h2>
+            <div class="flex flex-col gap-2">
+              <a
+                class="flex gap-2 opacity-75 text-xl"
+                href="mailto:benjamingabalos@gmail.com"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-at w-4"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#2c3e50"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                  <path
+                    d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"
+                  />
+                </svg>
+                benjamingabalos@gmail.com
+              </a>
+              <a id="phone" class="flex gap-2 opacity-75 text-xl" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-phone-call w-4"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#2c3e50"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                  />
+                  <path d="M15 7a2 2 0 0 1 2 2" />
+                  <path d="M15 3a6 6 0 0 1 6 6" />
+                </svg>
+                +54 341 696-1119
+              </a>
+            </div>
           </div>
-        </div>
-        <div>
-          <h2 class="lg:text-3xl mb-4">Redes sociales</h2>
-          <div class="flex flex-col gap-2">
-            <a
-              class="flex gap-2 opacity-75 text-xl"
-              href="mailto:benjamingabalos@gmail.com"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-at w-4"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="#2c3e50"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-                <path
-                  d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"
-                />
-              </svg>
-              Instagram
-            </a>
-            <a
-              class="flex gap-2 opacity-75 text-xl"
-              href="https://wa.link/51y7hc"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-brand-whatsapp w-4"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="#2c3e50"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
-                <path
-                  d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"
-                />
-              </svg>
-              Whatsapp
-            </a>
+          <div class="border-b-2 py-8 border-amber-900/50">
+            <h2 class="text-2xl lg:text-3xl mb-4">Redes sociales</h2>
+            <div class="flex flex-col gap-2">
+              <a
+                class="flex items-center gap-2 opacity-75 text-xl"
+                href="https://www.instagram.com/ba.basenses/"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-instagram w-4"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#2c3e50"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+                  />
+                  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                  <path d="M16.5 7.5l0 .01" />
+                </svg>
+                Instagram
+              </a>
+              <a
+                class="flex gap-2 opacity-75 text-xl"
+                href="https://wa.link/51y7hc"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-whatsapp w-4"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#2c3e50"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                  <path
+                    d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"
+                  />
+                </svg>
+                Whatsapp
+              </a>
+            </div>
           </div>
         </div>
       </div>

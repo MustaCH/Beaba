@@ -24,14 +24,16 @@ const CopyToClipBoard = () => {
   textCopied.addEventListener("click", function (event) {
     event.preventDefault();
 
-    // Texto que deseas copiar al portapapeles
     let textToCopy = textCopied.innerText;
 
-    // Copiar el texto al portapapeles
     navigator.clipboard
       .writeText(textToCopy)
       .then(function () {
-        alert("Texto copiado al portapapeles: " + textToCopy);
+        let tooltip = document.getElementById("tooltip");
+        tooltip.classList.remove("hidden");
+        setTimeout(() => {
+          tooltip.classList.add("hidden");
+        }, 2000);
       })
       .catch(function (err) {
         console.error("Error al intentar copiar el texto: ", err);
