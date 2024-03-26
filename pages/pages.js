@@ -15,3 +15,28 @@ const CloseSidebar = () => {
   toggleMenu.classList.remove("opacity-0");
   closeMenu.classList.add("hidden");
 };
+
+//COPY TO CLIPBOARD
+
+let textCopied = document.getElementById("phone");
+
+const CopyToClipBoard = () => {
+  textCopied.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    // Texto que deseas copiar al portapapeles
+    let textToCopy = textCopied.innerText;
+
+    // Copiar el texto al portapapeles
+    navigator.clipboard
+      .writeText(textToCopy)
+      .then(function () {
+        alert("Texto copiado al portapapeles: " + textToCopy);
+      })
+      .catch(function (err) {
+        console.error("Error al intentar copiar el texto: ", err);
+      });
+  });
+};
+
+CopyToClipBoard();
