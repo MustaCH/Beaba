@@ -5,7 +5,7 @@ const loading = () => {
   setTimeout(() => {
     loader.classList.add("fade-out");
     navbar.classList.add("z-50", "fade-in");
-  }, 4000);
+  }, 2000);
 };
 
 //Carousel automatico
