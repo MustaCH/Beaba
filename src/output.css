@@ -2129,6 +2129,38 @@ video {
   background-image: url('../../img/projects/humboldt/pic1.JPG');
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic1\.JPG\'\)\] {
+  background-image: url('../../img/projects/concepcion/pic1.JPG');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic2\.JPG\'\)\] {
+  background-image: url('../../img/projects/concepcion/pic2.JPG');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic3\.jpg\'\)\] {
+  background-image: url('../../img/projects/concepcion/pic3.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic4\.jpg\'\)\] {
+  background-image: url('../../img/projects/concepcion/pic4.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic5\.jpg\'\)\] {
+  background-image: url('../../img/projects/concepcion/pic5.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic6\.jpg\'\)\] {
+  background-image: url('../../img/projects/concepcion/pic6.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/projects\/concepcion\/pic1\.jpg\'\)\] {
+  background-image: url('../img/projects/concepcion/pic1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/projects\/concepcion\/pic1\.JPG\'\)\] {
+  background-image: url('../img/projects/concepcion/pic1.JPG');
+}
+
 .from-black {
   --tw-gradient-from: #000 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
