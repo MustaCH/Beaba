@@ -759,8 +759,16 @@ video {
   margin-right: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-20 {
@@ -775,24 +783,16 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .box-border {
@@ -904,10 +904,6 @@ video {
 
 .h-56 {
   height: 14rem;
-}
-
-.h-72 {
-  height: 18rem;
 }
 
 .h-96 {
@@ -1324,10 +1320,6 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
@@ -2121,6 +2113,14 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/humboldt\/pic5\.jpg\'\)\] {
+  background-image: url('../../img/projects/humboldt/pic5.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/humboldt\/pic6\.jpg\'\)\] {
+  background-image: url('../../img/projects/humboldt/pic6.jpg');
+}
+
 .from-black {
   --tw-gradient-from: #000 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
@@ -2200,6 +2200,10 @@ video {
   background-position: top;
 }
 
+.bg-bottom {
+  background-position: bottom;
+}
+
 .bg-repeat {
   background-repeat: repeat;
 }
@@ -2270,11 +2274,6 @@ video {
   padding-right: 1rem;
 }
 
-.px-80 {
-  padding-left: 20rem;
-  padding-right: 20rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -2295,23 +2294,12 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-96 {
-  padding-left: 24rem;
-  padding-right: 24rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .pb-32 {
   padding-bottom: 8rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pe-24 {
@@ -2322,20 +2310,12 @@ video {
   padding-inline-start: 2rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .pt-12 {
   padding-top: 3rem;
 }
 
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-left {
@@ -2414,14 +2394,14 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -2605,14 +2585,6 @@ video {
 
 .opacity-75 {
   opacity: 0.75;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-85 {
-  opacity: 0.85;
 }
 
 .bg-blend-normal {
@@ -3055,12 +3027,12 @@ video {
     margin-right: 20rem;
   }
 
-  .lg\:mb-24 {
-    margin-bottom: 6rem;
-  }
-
   .lg\:mb-16 {
     margin-bottom: 4rem;
+  }
+
+  .lg\:mb-24 {
+    margin-bottom: 6rem;
   }
 
   .lg\:flex {
@@ -3117,6 +3089,11 @@ video {
     padding: 3rem;
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:px-72 {
     padding-left: 18rem;
     padding-right: 18rem;
@@ -3125,11 +3102,6 @@ video {
   .lg\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
-  }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .lg\:pt-20 {
