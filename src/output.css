@@ -2121,6 +2121,14 @@ video {
   background-image: url('../../img/projects/humboldt/pic6.jpg');
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/humboldt\/pic2\.JPG\'\)\] {
+  background-image: url('../../img/projects/humboldt/pic2.JPG');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/humboldt\/pic1\.JPG\'\)\] {
+  background-image: url('../../img/projects/humboldt/pic1.JPG');
+}
+
 .from-black {
   --tw-gradient-from: #000 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
