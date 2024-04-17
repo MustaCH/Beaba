@@ -2145,6 +2145,102 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/KL6MT12\/pic1\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/KL6MT12/pic1.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/2MZL5KW\/pic1\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/2MZL5KW/pic1.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/mRgZNpq\/pic1\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/mRgZNpq/pic1.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/2ckdW7R\/pic2\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/2ckdW7R/pic2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/4JfSRxY\/pic3\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/4JfSRxY/pic3.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/6FGh4M3\/pic4\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/6FGh4M3/pic4.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/RPcqwKJ\/pic5\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/RPcqwKJ/pic5.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/3RXWYMq\/pic8\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/3RXWYMq/pic8.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/D12M1WN\/pic4\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/D12M1WN/pic4.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/Km4Pm78\/pic10\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/Km4Pm78/pic10.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/NCvYtzx\/pic6\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/NCvYtzx/pic6.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/XfQ9sYq\/pic11\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/XfQ9sYq/pic11.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/XsDppzP\/pic9\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/XsDppzP/pic9.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/c1x8dtm\/pic3\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/c1x8dtm/pic3.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/kqSx0nG\/pic5\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/kqSx0nG/pic5.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/sV2wwx8\/pic7\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/sV2wwx8/pic7.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/v1jm57Q\/pic2\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/v1jm57Q/pic2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/DMNzs93\/pic2\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/DMNzs93/pic2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/860NtRn\/pic5\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/860NtRn/pic5.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/TmsBL00\/pic6\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/TmsBL00/pic6.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/q7tT3nQ\/pic4\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/q7tT3nQ/pic4.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/rsDxTJ7\/pic3\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/rsDxTJ7/pic3.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/about\/aboutimg\.jpg\'\)\] {
+  background-image: url('../img/about/aboutimg.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/3k9pfzB\/aboutimg\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/3k9pfzB/aboutimg.jpg');
+}
+
 .from-black {
   --tw-gradient-from: #000 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
@@ -2422,6 +2518,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -3073,6 +3174,10 @@ video {
 
   .lg\:w-20 {
     width: 5rem;
+  }
+
+  .lg\:w-32 {
+    width: 8rem;
   }
 
   .lg\:scale-0 {
