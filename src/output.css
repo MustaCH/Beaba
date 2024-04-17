@@ -795,6 +795,14 @@ video {
   margin-top: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -927,8 +935,12 @@ video {
   height: 100vh;
 }
 
-.w-12 {
-  width: 3rem;
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-4 {
@@ -968,24 +980,8 @@ video {
   width: 100vw;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-24 {
-  width: 6rem;
+.w-12 {
+  width: 3rem;
 }
 
 .flex-shrink {
@@ -2037,128 +2033,24 @@ video {
   background-color: rgb(24 24 27 / 0.8);
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic1\.JPG\'\)\] {
-  background-image: url('../../img/projects/concepcion/pic1.JPG');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic2\.JPG\'\)\] {
-  background-image: url('../../img/projects/concepcion/pic2.JPG');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic3\.jpg\'\)\] {
-  background-image: url('../../img/projects/concepcion/pic3.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic4\.jpg\'\)\] {
-  background-image: url('../../img/projects/concepcion/pic4.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic5\.jpg\'\)\] {
-  background-image: url('../../img/projects/concepcion/pic5.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/concepcion\/pic6\.jpg\'\)\] {
-  background-image: url('../../img/projects/concepcion/pic6.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic1\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic10\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic10.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic11\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic11.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic2\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic2.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic3\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic3.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic4\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic4.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic5\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic5.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic6\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic6.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic7\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic7.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic8\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic8.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/corrientes\/pic9\.jpg\'\)\] {
-  background-image: url('../../img/projects/corrientes/pic9.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/fitz-roy\/pic1\.jpg\'\)\] {
-  background-image: url('../../img/projects/fitz-roy/pic1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/fitz-roy\/pic2\.jpg\'\)\] {
-  background-image: url('../../img/projects/fitz-roy/pic2.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/fitz-roy\/pic3\.jpg\'\)\] {
-  background-image: url('../../img/projects/fitz-roy/pic3.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/fitz-roy\/pic4\.jpg\'\)\] {
-  background-image: url('../../img/projects/fitz-roy/pic4.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/img\/projects\/fitz-roy\/pic5\.jpg\'\)\] {
-  background-image: url('../../img/projects/fitz-roy/pic5.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/projects\/concepcion\/pic1\.JPG\'\)\] {
-  background-image: url('../img/projects/concepcion/pic1.JPG');
-}
-
-.bg-\[url\(\'\.\.\/img\/projects\/corrientes\/pic1\.jpg\'\)\] {
-  background-image: url('../img/projects/corrientes/pic1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/projects\/fitz-roy\/pic1\.jpg\'\)\] {
-  background-image: url('../img/projects/fitz-roy/pic1.jpg');
-}
-
 .bg-\[url\(\'\/img\/slides\/s1\.jpg\'\)\] {
   background-image: url('/img/slides/s1.jpg');
-}
-
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/KL6MT12\/pic1\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/KL6MT12/pic1.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/2MZL5KW\/pic1\.jpg\'\)\] {
   background-image: url('https://i.ibb.co/2MZL5KW/pic1.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/mRgZNpq\/pic1\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/mRgZNpq/pic1.jpg');
-}
-
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/2ckdW7R\/pic2\.jpg\'\)\] {
   background-image: url('https://i.ibb.co/2ckdW7R/pic2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/3RXWYMq\/pic8\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/3RXWYMq/pic8.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/3k9pfzB\/aboutimg\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/3k9pfzB/aboutimg.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/4JfSRxY\/pic3\.jpg\'\)\] {
@@ -2169,16 +2061,20 @@ video {
   background-image: url('https://i.ibb.co/6FGh4M3/pic4.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/RPcqwKJ\/pic5\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/RPcqwKJ/pic5.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/3RXWYMq\/pic8\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/3RXWYMq/pic8.jpg');
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/860NtRn\/pic5\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/860NtRn/pic5.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/D12M1WN\/pic4\.jpg\'\)\] {
   background-image: url('https://i.ibb.co/D12M1WN/pic4.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/DMNzs93\/pic2\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/DMNzs93/pic2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/KL6MT12\/pic1\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/KL6MT12/pic1.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/Km4Pm78\/pic10\.jpg\'\)\] {
@@ -2187,6 +2083,14 @@ video {
 
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/NCvYtzx\/pic6\.jpg\'\)\] {
   background-image: url('https://i.ibb.co/NCvYtzx/pic6.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/RPcqwKJ\/pic5\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/RPcqwKJ/pic5.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/TmsBL00\/pic6\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/TmsBL00/pic6.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/XfQ9sYq\/pic11\.jpg\'\)\] {
@@ -2205,24 +2109,8 @@ video {
   background-image: url('https://i.ibb.co/kqSx0nG/pic5.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/sV2wwx8\/pic7\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/sV2wwx8/pic7.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/v1jm57Q\/pic2\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/v1jm57Q/pic2.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/DMNzs93\/pic2\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/DMNzs93/pic2.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/860NtRn\/pic5\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/860NtRn/pic5.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/TmsBL00\/pic6\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/TmsBL00/pic6.jpg');
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/mRgZNpq\/pic1\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/mRgZNpq/pic1.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.ibb\.co\/q7tT3nQ\/pic4\.jpg\'\)\] {
@@ -2233,12 +2121,16 @@ video {
   background-image: url('https://i.ibb.co/rsDxTJ7/pic3.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/about\/aboutimg\.jpg\'\)\] {
-  background-image: url('../img/about/aboutimg.jpg');
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/sV2wwx8\/pic7\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/sV2wwx8/pic7.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/i\.ibb\.co\/3k9pfzB\/aboutimg\.jpg\'\)\] {
-  background-image: url('https://i.ibb.co/3k9pfzB/aboutimg.jpg');
+.bg-\[url\(\'https\:\/\/i\.ibb\.co\/v1jm57Q\/pic2\.jpg\'\)\] {
+  background-image: url('https://i.ibb.co/v1jm57Q/pic2.jpg');
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .from-black {
@@ -3233,12 +3125,12 @@ video {
     padding-right: 24rem;
   }
 
-  .lg\:pt-20 {
-    padding-top: 5rem;
-  }
-
   .lg\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-3xl {
